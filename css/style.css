@@ -50,7 +50,7 @@ html {
 
 /*-- header --*/
 .buttons span.fa {
-    color: #fff;
+    color: rgb(0, 0, 0);
     width: 35px;
     font-size: 11px;
     text-align: center;
@@ -61,7 +61,7 @@ html {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    border: 2px solid #fff;
+    border: 2px solid rgb(0, 0, 0);
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -70,12 +70,12 @@ html {
 }
 .buttons span.fa-facebook:hover {
     background: #3b5998;
-    border: 2px solid #3b5998;
+    border: 2px solid #000000;
     color: #fff;
 }
 .buttons span.fa-twitter:hover {
     background: #1da1f2;
-    border: 2px solid #1da1f2;
+    border: 2px solid #000000;
     color: #fff;
 }
 .buttons span.fa-linkedin:hover {
@@ -92,7 +92,7 @@ html {
 }
 a.navbar-brand {
     font-size: .8em;
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 0;
     font-weight: 700;
     margin: 0;
@@ -102,7 +102,7 @@ a.navbar-brand {
 }
 
 a.navbar-brand span.fa{
-    color: #00bcd1;
+    color: #000000;
 }
 /*-- //header --*/
 
@@ -133,7 +133,7 @@ a.navbar-brand span.fa{
 }
 
 .popup {
-    background: #fff;
+    background: rgb(0, 0, 0);
     border-radius: 5px;
     max-width: 500px;
     position: relative;
@@ -200,7 +200,7 @@ p.sub-para {
 }
 
 .slider-info p {
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 15px;
     width: 70%;
     line-height: 30px;
@@ -252,7 +252,7 @@ p.sub-para {
 }
 .slider-info a.btn.btn1{
     border: 2px solid #fff;
-    color: #fff;
+    color: rgb(0, 0, 0);
     background: none;
     font-size: 15px;
     padding: 11px 35px;
@@ -264,10 +264,11 @@ p.sub-para {
     -o-border-radius: 5px;
 }
 .slider-info a.btn{
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     background: none;
     font-size: 15px;
+    font-weight: bold;
     padding: 11px 35px;
     letter-spacing: 2px;
     border-radius: 5px;
@@ -295,12 +296,12 @@ h4.agile-title,h1.agile-title,h2.agile-title {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
     font-size: 3.7em;
     font-weight: 700;
-	color: #fff;
+	color: rgb(0, 0, 0);
 }
 h5.tag {
     display: block;
     font-weight: 600;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 13px;
     line-height: 20px;
     text-transform: uppercase;
@@ -312,7 +313,7 @@ h5.tag span {
 	position: absolute;
 	width:100px;
 	height:1px;
-	background: #fff;
+	background: rgb(0, 0, 0);
 	content:"";
 	top:47%;
 }
@@ -593,9 +594,10 @@ nav ul li {
 nav a {
     font-weight: 400;	
     text-transform: capitalize;
-    color: #fff;
+    color: rgb(0, 0, 0);
     letter-spacing: 2px;
     font-size: 15px;
+    font-weight: bold;
     border-bottom: 2px solid transparent;
     position: relative;
     padding: 0.2rem;
